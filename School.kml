@@ -1,12 +1,245 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document>
-    <name>School</name>
-    <NetworkLink>
-      <name>vMaker-map</name>
-      <Link>
-        <href><![CDATA[https://www.google.com/maps/d/u/0/kml?forcekml=1&mid=1DRf53ofZLPx2EstkBPkaH1VL6MZKYRE&lid=ZSMxLhdlWzE]]></href>
-      </Link>
-    </NetworkLink>
-  </Document>
+
+-<kml xmlns="http://www.opengis.net/kml/2.2">
+
+
+-<Document>
+
+<name>School</name>
+
+
+-<Style id="icon-1899-0288D1-normal">
+
+
+-<IconStyle>
+
+<color>ffd18802</color>
+
+<scale>1</scale>
+
+
+-<Icon>
+
+<href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+
+</Icon>
+
+<hotSpot yunits="insetPixels" y="64" xunits="pixels" x="32"/>
+
+</IconStyle>
+
+
+-<LabelStyle>
+
+<scale>0</scale>
+
+</LabelStyle>
+
+</Style>
+
+
+-<Style id="icon-1899-0288D1-highlight">
+
+
+-<IconStyle>
+
+<color>ffd18802</color>
+
+<scale>1</scale>
+
+
+-<Icon>
+
+<href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+
+</Icon>
+
+<hotSpot yunits="insetPixels" y="64" xunits="pixels" x="32"/>
+
+</IconStyle>
+
+
+-<LabelStyle>
+
+<scale>1</scale>
+
+</LabelStyle>
+
+</Style>
+
+
+-<StyleMap id="icon-1899-0288D1">
+
+
+-<Pair>
+
+<key>normal</key>
+
+<styleUrl>#icon-1899-0288D1-normal</styleUrl>
+
+</Pair>
+
+
+-<Pair>
+
+<key>highlight</key>
+
+<styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+
+</Pair>
+
+</StyleMap>
+
+
+-<Placemark>
+
+<name>佛光大學</name>
+
+<address>宜蘭縣礁溪鄉林美村林尾路160號</address>
+
+
+-<description>
+
+-<![CDATA[地址: 宜蘭縣礁溪鄉林美村林尾路160號<br>聯絡電話: 03-9871000轉25321<br>負責人: 邱毓峰<br>營業時間: 週一~週五早上八點到下午九點]]>
+</description>
+
+<styleUrl>#icon-1899-0288D1</styleUrl>
+
+
+-<ExtendedData>
+
+
+-<Data name="地址">
+
+<value>宜蘭縣礁溪鄉林美村林尾路160號</value>
+
+</Data>
+
+
+-<Data name="聯絡電話">
+
+<value>03-9871000轉25321</value>
+
+</Data>
+
+
+-<Data name="負責人">
+
+<value>邱毓峰</value>
+
+</Data>
+
+
+-<Data name="營業時間">
+
+<value>週一~週五早上八點到下午九點</value>
+
+</Data>
+
+</ExtendedData>
+
+</Placemark>
+
+
+-<Placemark>
+
+<name>Fablab NTVS 新北高工</name>
+
+<address>新北市土城區學府路一段241號</address>
+
+
+-<description>
+
+-<![CDATA[地址: 新北市土城區學府路一段241號<br>聯絡電話: 02-2261-5427<br>負責人: 姜禮德<br>營業時間: ]]>
+</description>
+
+<styleUrl>#icon-1899-0288D1</styleUrl>
+
+
+-<ExtendedData>
+
+
+-<Data name="地址">
+
+<value>新北市土城區學府路一段241號</value>
+
+</Data>
+
+
+-<Data name="聯絡電話">
+
+<value>02-2261-5427</value>
+
+</Data>
+
+
+-<Data name="負責人">
+
+<value>姜禮德</value>
+
+</Data>
+
+
+-<Data name="營業時間">
+
+<value/>
+
+</Data>
+
+</ExtendedData>
+
+</Placemark>
+
+
+-<Placemark>
+
+<name>FabLab 華僑高中</name>
+
+<address>新北市板橋區大觀路一段32號</address>
+
+
+-<description>
+
+-<![CDATA[地址: 新北市板橋區大觀路一段32號<br>聯絡電話: 02-29684131#201<br>負責人: 邱森林老師<br>營業時間: ]]>
+</description>
+
+<styleUrl>#icon-1899-0288D1</styleUrl>
+
+
+-<ExtendedData>
+
+
+-<Data name="地址">
+
+<value>新北市板橋區大觀路一段32號</value>
+
+</Data>
+
+
+-<Data name="聯絡電話">
+
+<value>02-29684131#201</value>
+
+</Data>
+
+
+-<Data name="負責人">
+
+<value>邱森林老師</value>
+
+</Data>
+
+
+-<Data name="營業時間">
+
+<value/>
+
+</Data>
+
+</ExtendedData>
+
+</Placemark>
+
+</Document>
+
 </kml>
